@@ -50,7 +50,7 @@ svg {
 }
 
 body {
-  background: var(--color-primary) url(/images/bg-mobile.svg) no-repeat;
+  background: var(--color-primary) url(./images/bg-mobile.svg) no-repeat;
   background-size: contain;
   color: var(--color-white);
   font-family: var(--font-primary);
@@ -212,7 +212,7 @@ input[type="submit"] {
 
 @media screen and (min-width: 1200px) {
   body {
-    background: var(--color-primary) url(/images/bg-desktop.svg) no-repeat;
+    background: var(--color-primary) url(./images/bg-desktop.svg) no-repeat;
   }
 
   h1 {
